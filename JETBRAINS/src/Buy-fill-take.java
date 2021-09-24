@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 class CoffeMachine{
     
@@ -24,6 +26,7 @@ class CoffeMachine{
                         case "3":
                             coffee.three();
                             break;
+
                         case "back":
                             break;
                                     
@@ -49,7 +52,7 @@ class CoffeMachine{
                 break;
 
                 default:
-                    break;
+                break;
             }
 
            
